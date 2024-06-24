@@ -10,7 +10,10 @@ int main()
     // cout << *ptr << endl;
     vec.push_back(20);
     vec[0] = 30;
+    // int *ptr2 = &vec[0]; -> 다시 새로운 포인터로 할당해야 함
+    // cout << *ptr2 << endl;
     cout << *ptr << endl;
+
     return 0;
 }
 

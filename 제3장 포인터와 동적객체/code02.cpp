@@ -16,5 +16,5 @@ public:
 
 MyRectangle r(0.0, 0.0, 2.0, 3.0);
 
-// built-im 타입만이 아니라 클래스 객체에 대한 포인터도 사용가능
+// built-in 타입만이 아니라 클래스 객체에 대한 포인터도 사용가능
 MyRectangle *pr = &r;
